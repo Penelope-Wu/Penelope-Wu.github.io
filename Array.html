@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bubble Tea Menu </title>
+	<style type="text/css">
+		#tea{
+
+			width: 400px;
+			height: 400px;
+			border: 20px;
+			border-style: solid;
+			border-color: orchid;
+			background-color: salmon;
+		}
+
+
+
+	</style>
+</head>
+<body>
+	<div id = "tea"></div>
+	<script type="text/javascript">
+
+		// function addFive (){
+		// 	console.log(Math.random()*5);
+		// 	return Math.random()*5;
+
+		// }
+		// 		var whatever = addFive();
+
+
+		 
+
+
+
+
+
+		var flavors = [ "mango", "milk", "green tea", "strawberry", "taro", "coffee", "thai"];
+		var tea = document.getElementById('tea');
+
+
+tea.addEventListener("click", function () {
+				tea.innerText = flavors[0];
+
+});
+
+
+	</script>
+
+</body>
+</html>
